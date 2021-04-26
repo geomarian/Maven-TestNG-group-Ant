@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test name="Test1">
+  <groups>
+  <run>
+  <include name="Driverlaunch"></include>
+   <include name="Weblaunch"></include>
+  <include name="sanity" > </include>
+  <include name="exit"></include>
+  </run></groups>
+  
+  
+    <classes>
+    <class name="com.WebApp.Test.HomePage" />
+      <class name="com.WebApp.Test.quickLinks"/>
+      
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
